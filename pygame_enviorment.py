@@ -27,6 +27,7 @@ black = 0, 0, 0
 screen = pygame.display.set_mode(size)
 
 #The only observation in this simulation is the distance between the food and player
+#Each unit in the game is equal to 20 pixels or 20 units of the window.
 
 if start_qtable == None:
 	qtable = {}
